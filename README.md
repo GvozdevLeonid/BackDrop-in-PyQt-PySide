@@ -1,4 +1,4 @@
-# BackDrop effect in PyQt/PySide
+# BackDrop effect in PySide6
 This repository contains two classes: BackDrop is a graphical effect in which you need to set a list of backgrounds, blur and a border radius. BackDropWrapper - a handy wrapper for displaying and animation the backdrop effect.
 
 	BackDrop(blur: int = 0, radius: int = 0, backgrounds: list[dict] = None)
