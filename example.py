@@ -1,5 +1,5 @@
 from PySide6 import QtCore, QtWidgets, QtGui
-from Glassmorphism import *
+from Glassmorphism.Glassmorphism import *
 
 def coloredIcon(color: QtGui.QColor, icon_path: str, size: QtCore.QSize, scale: int = 2):
     icon = QtGui.QPixmap(size.width() * scale, size.height() * scale)
